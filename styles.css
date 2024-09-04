@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#content-wrapper {
+  width: 60%;
+  margin: 30px auto;
+  min-width: 350px;
+  border: red solid 10px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  max-width: 450px;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name-id span,
+#size span {
+  display: inline;
+}
+
+#name-id {
+  margin-top: 15px;
+}
+
+#sprite-types-stats {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 15px auto;
+}
+
+#sprite-types {
+  display: grid;
+  grid-template-rows: 60% 40%;
+}
+
+#sprite-box {
+  margin-left: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+#types span {
+  display: block;
+  margin-top: 5px
+}
+
+#types {
+  margin-left: auto;
+  margin-right: 10px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.type {
+  border-radius: 5px;
+  border: black solid thin;
+}
+
+.normal {
+  background: #A0A2A0;
+}
+
+.fighting {
+  background: #FF8100;
+}
+
+.flying {
+  background: #82BAF0;
+}
+
+.poison {
+  background: #923FCC;
+}
+
+.ground {
+  background: #92501B;
+}
+
+.rock {
+  background: #B0AB82;
+}
+
+.bug {
+  background: #92A212;
+}
+
+.ghost {
+  background: #713F71;
+}
+
+.steel {
+  background: #60A2B9;
+}
+
+.fire {
+  background: #E72324;
+}
+
+.water {
+  background: #2481F0;
+}
+
+.grass {
+  background: #3DA224;
+}
+
+.electric {
+  background: #FAC100;
+}
+
+.psychic {
+  background: #EF3F7A;
+}
+
+.ice {
+  background: #3DD9FF;
+}
+
+.dragon {
+  background: #4F60E2;
+}
+
+.dark {
+  background: #4F3F3D;
+}
+
+.fairy {
+  background: #EF71F0;
+}
+
+.stellar {
+  background: linear-gradient(100deg, #fca6ff 0, #ffa1fe 3.33%, #ff9cf0 6.67%, #ff99e2 10%, #ff96d3 13.33%, #ff95c3 16.67%, #ff95b4 20%, #ff97a6 23.33%, #ff9997 26.67%, #ff9d8a 30%, #ffa27d 33.33%, #ffa771 36.67%, #ffac67 40%, #ffb25e 43.33%, #feb858 46.67%, #f2bd53 50%, #e5c251 53.33%, #d7c751 56.67%, #c8cb55 60%, #b9d05a 63.33%, #a8d362 66.67%, #97d66c 70%, #84d978 73.33%, #6fdb84 76.67%, #55dd92 80%, #31dfa1 83.33%, #00e0b0 86.67%, #00e1c0 90%, #00e1cf 93.33%, #00e1df 96.67%, #00e1ed 100%);
+}
+
+.unknown {
+  background: url('https://images.wikidexcdn.net/mwuploads/wikidex/4/44/latest/20230119185824/Tipo_%28%3F%29.gif');
+}
+
+.span-block {
+  display: inline-block;
+  width: 50%;
+}
+
+#search-form {
+  width: 50%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input,
+button {
+  border: black solid thin;
+  border-radius: 5px;
+}
+
+input {
+  width: 80%;
+  background: #ADD8E6;
+}
+
+button {
+  background: #90EE90;
+  margin-left: 5px;
+}
+
+::placeholder{
+  color: black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Pokémon Search App">
+    <meta name="author" content="Manuel Molina">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Pokémon Search App</h1>
+        <div id="content-wrapper">
+            <div id="output">
+              <div id="name-id">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+              </div>
+              <div id="sprite-types-stats">
+                <div id="sprite-types">
+                  <div id="sprite-box"></div>
+                  <div id="types"></div>
+                </div>
+                <div id="stats">
+                  <span class="span-block">HP: </span><span id="hp"></span>
+                  <span class="span-block">Attack: </span><span id="attack"></span>
+                  <span class="span-block">Defense: </span><span id="defense"></span>
+                  <span class="span-block">Special-Attack: </span><span id="special-attack"></span>
+                  <span class="span-block">Special-Defense: </span><span id="special-defense"></span>
+                  <span class="span-block">Speed: </span><span id="speed"></span>
+                </div>
+              </div>
+              <div id="types-size">
+                <div id="size">
+                  <span>Weight: </span><span id="weight"></span>
+                  <span>Height: </span><span id="height"></span>
+                 
+                </div>
+              </div>
+            </div>
+            <form id="search-form">
+              <input id="search-input" type="text" required placeholder="Seach for Pokémon">
+              <button id="search-button">Search</button>
+            </form>
+        </div> 
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
